@@ -1,2 +1,2 @@
 # Portfolio-copilot
- Portfolio feito com a tecnologia IA da copilot.
+ Portfolio feito com a ajuda da tecnologia IA da copilot.
