@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    
+}
+
+.item {
+    background-color: rgb(128, 88, 173);
+    padding: 20px;
+}
+/* Header Section */
+#header {
+    background-color: #6B46C1;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 20px 0 10px;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.primary-btn {
+    background-color: #9F7AEA;
+    color: #fff;
+}
+
+.secondary-btn {
+    background-color: #E9D8FD;
+    color: #6B46C1;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.portfolio-item h3 {
+    margin: 10px 0;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px 20px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-category {
+    flex: 1 1 calc(25% - 40px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-category img {
+    width: 50px;
+    margin: 10px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    align-self: flex-start;
+}
+
+.alternative-contact {
+    margin-top: 20px;
+}
+
+.alternative-contact p {
+    margin: 5px 0;
+}
+
+/* Additional Elements */
+#additional {
+    padding: 50px 20px;
+}
+
+#additional h2 {
+    margin: 20px 0;
+}
+
+#additional a {
+    display: inline-block;
+    margin: 10px 5px;
+}
