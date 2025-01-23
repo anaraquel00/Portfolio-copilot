@@ -1,103 +1,63 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+    </style>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freelance Web Developer Portfolio</title>
+    <title>Web Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header id="header">
+    <header>
         <div class="container">
-            <img src="assets/foto_perfil.jpeg" alt="Profile Photo" class="profile-photo">
-            <h1>Freelance Web Developer</h1>
-            <p>Criando sites modernos e memoraveis para dar vida as suas ideias.</p>
-            <a href="#contato" class="btn primary-btn">Contact Me</a>
+            <h1>Ana Raquel de Holanda</h1>
+            <p>Web Developer</p>
+            <p>Contact: <a href="mailto:anaraquel00@gmail.com">anaraquel00@gmail.com</a></p>
+            <p>Social Media:
+                <a href="https://www.linkedin.com/in/ana-raquel-de-holanda/?locale=pt_BR">LinkedIn</a>,
+                <a href="https://github.com/anaraquel00">GitHub</a>
+            </p>
         </div>
     </header>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio">
+    <section id="about">
         <div class="container">
-            <h2>My Portfolio</h2>
-            <div class="portfolio-grid">
-                <!-- Example Project -->
-                <div class="portfolio-item">
-                    <img src="assets/projet_portfolio.png" alt="Project Screenshot">
-                    <h3>Project Title</h3>
-                    <p>Brief description of the project.</p>
-                    <p>Technologies: HTML5, CSS3, JavaScript</p>
-                    <a href="live-demo-link" class="btn secondary-btn">Live Demo</a>
-                    <a href="github-repo-link" class="btn secondary-btn">GitHub Repo</a>
-                </div>
-                <div></div>
-                                    
+            <h2>Sobre Mim</h2>
+            <p>Estudante de programação em Java, pró-ativa, com facilidade de aprender novas tecnologias e sempre disposta a enfrentar desafios e colaborar com equipes de desenvolvimento. Busco oportunidades para aplicar meus conhecimentos em projetos reais e crescer na carreira de desenvolvimento de softwares.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="project">
+                <h3>Project BRVest</h3>
+                <p>Site com o objetivo de ajudar os estudantes a planejar seus estudos com o foco no ENEM. Com o auxilio do Chat GPT, conseguir a explicaçao da ideia inicial para criar um projeto completo e bem estruturado. Projeto em fase inicial.</p>
+                <p>Technologias usadas: HTML, CSS, JavaScript</p>
+                <a href="https://github.com/anaraquel00/Projeto_BRVest">Veja em detalhes no GitHub</a>
             </div>
+            <h3>Projetos feitos em aula</h3>
+            <p>Listas de pequenos programas experimentais aprendidos e em processo de aprendizagem em aulas presenciais e virtuais.</p>
+            <a href="https://github.com/anaraquel00/Curso_Java">Veja em detalhes no GitHub</a>
+        </div>
+            </section>
+            <section id="skills">
+                <div class="container">
+                    <h2>Competências</h2>
+                    <div class="skills">
+               
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <!-- Add more skills here -->
+            </ul>
         </div>
     </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
+    <footer>
         <div class="container">
-            <h2>My Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <img src="assets/html.png" alt="HTML5">
-                    <img src="assets/css.png" alt="CSS3">
-                    <img src="assets/javascript.png" alt="JavaScript">
-                    <!-- Add other frontend technologies -->
-                </div>
-                <div class="skill-category">
-                    <h3>Backend</h3>
-                    <img src="assets/java.png" alt="Java">
-                    <!-- Add other backend technologies -->
-                </div>
-                <!-- Add other categories as needed -->
-            </div>
+            <p>&copy; 2025 Ana Raquel All rights reserved.</p>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form action="submit-form-url" method="POST">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <select name="project-type" required>
-                    <option value="">Select Project Type</option>
-                    <option value="website">Website</option>
-                    <option value="app">App</option>
-                    <!-- Add other project types -->
-                </select>
-                <input type="text" name="budget" placeholder="Budget Range" required>
-                <textarea name="description" placeholder="Project Description" required></textarea>
-                <button type="submit" class="btn primary-btn">Submit</button>
-            </form>
-            <div class="alternative-contact">
-                <p>Email: your-email@example.com</p>
-                <p>LinkedIn: <a href="linkedin-profile-link">Profile</a></p>
-                <p>GitHub: <a href="github-profile-link">Profile</a></p>
-            </div>
-            <p>Estimated response time: 24-48 hours</p>
-        </div>
-    </section>
-
-    <!-- Additional Elements -->
-    <section id="additional">
-        <div class="container">
-            <h2>Testimonials</h2>
-            <!-- Add testimonials here -->
-            <h2>Resume</h2>
-            <a href="path/to/resume.pdf" class="btn secondary-btn">Download Resume</a>
-            <h2>Blog</h2>
-            <a href="blog-link" class="btn secondary-btn">Read Articles</a>
-        </div>
-    </section>
-
-    <!-- Add your scripts here -->
-    <script src="script.js"></script>
+    </footer>
 </body>
 </html>
